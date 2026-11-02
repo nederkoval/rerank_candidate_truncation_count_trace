@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nederkoval-chipadapt_jd299"
+name = "nederkoval-rerank_candidate_truncation_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出推理芯片适配工程师·重排模型的候选截断上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://nederkoval.github.io"
-Repository = "https://github.com/nederkoval/chipadapt_jd299"
-Issues = "https://github.com/nederkoval/chipadapt_jd299/issues"
+Repository = "https://github.com/nederkoval/rerank_candidate_truncation_count_trace"
+Issues = "https://github.com/nederkoval/rerank_candidate_truncation_count_trace/issues"
 
 [project.scripts]
-chipadapt_jd299 = "chipadapt_jd299:main"
+rerank_candidate_truncation_count_trace = "rerank_candidate_truncation_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["chipadapt_jd299"]
+py-modules = ["rerank_candidate_truncation_count_trace"]
